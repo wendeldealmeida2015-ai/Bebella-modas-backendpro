@@ -1,5 +1,6 @@
 import express from 'express';
-import { createPayment, mpWebhook, listOrders } from '../controllers/paymentController.js';
+import { createPayment, mpWebhook, listOrders } from './paymentController.js';
+
 
 const router = express.Router();
 
